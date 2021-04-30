@@ -1,0 +1,33 @@
+.hidden{
+    display: none;
+}
+body{
+    background-image: url("https://miro.medium.com/max/1450/1*p4hMPkO-vDxSRo-gBZIv0w.jpeg");
+}
+main{
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+}
+#enter{
+    margin: 0 auto;
+}
+#SubmitBtn{
+    background-color: black;
+    color: #FFFFFF;
+    text-align: center;
+    cursor: pointer;
+}
+#Enter{
+    text-decoration: none;
+    color: black;
+}
+#EnterSection{
+    margin: 0 auto;
+    text-align: center;
+    border: solid palegoldenrod;
+    border-radius: .5em;
+    width: 50px;
+    background-color: lightcoral;
+}
+

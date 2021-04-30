@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>NBA Stat Finder!</title>
+    <link href="Nba.css" rel="stylesheet"/>
+    <script src="Nba.js" type="text/javascript"></script>
+</head>
+<body>
+<header>
+    <h1>Welcome to The NBA Stats Kingdom!</h1>
+    <p>A wonderful application allowing you to find key stats of any of the NBAs top players with the click of a button.
+    For Specific player stats, simply type a players first or last name and click the corresponding search by first or last name
+    button. Click other list buttons (MVP, DPOY, ROY) to bring up the current rankings.</p>
+    <button id="FnBtn">Results By First Name</button>
+    <button id="LnBtn">Results By Last Name</button>
+    <button id="MvpBtn">MVP Ladder</button>
+    <button id="DpoyBtn">DPOY Ladder</button>
+    <button id="RoyBtn">ROY Ladder</button>
+    <br> Type in your player: <input type="text" id="input-text" placeholder="ex. Lebron" />
+</header>
+<article id="StatArea">
+    <section id="Fn" class="hidden"></section>
+    <section id="Ln" class="hidden"></section>
+    <section id="Mvp" class="hidden">
+        <h2>Current MVP Ladder:</h2>
+        <div id="MvpPics" ></div>
+        <ol>
+            <li>Nikola Jokic</li>
+            <li>Joel Embiid</li>
+            <li>Giannis Antetokounmpo</li>
+            <li>Luka Doncic</li>
+            <li>Steph Curry</li>
+        </ol>
+    </section>
+    <section id="Dpoy" class="hidden">
+        <h2>Current DPOY Ladder:</h2>
+        <div id="DpoyPics" ></div>
+        <ol>
+            <li>Rudy Gobert</li>
+            <li>Ben Simmons</li>
+            <li>Bam Adebayo</li>
+            <li>Giannis Antetokounmpo</li>
+            <li>Myles Turner</li>
+        </ol>
+    </section>
+    <section id="Roy" class="hidden">
+        <h2>Current ROY Ladder:</h2>
+        <div id="RoyPics" ></div>
+        <ol>
+            <li>Anthony Edwards</li>
+            <li>Tyrese Haliburton</li>
+            <li>Jae'sean Tate</li>
+            <li>Saddiq Bey</li>
+            <li>Lamelo Ball</li>
+        </ol>
+    </section>
+</article>
+<aside id="leagueLeaders">
+    <h2>Current League Leaders:</h2>
+        <div id="leaderPics"></div>
+
+    <p>(Bradley Beal #3) Points per game: 31.3</p>
+    <p>(Russell Westbrook #4) Assists per game: 11.0</p>
+    <p>(Clint Capela #15) Rebounds per game: 14.6</p>
+    <p>(Jimmy Butler #22) Steals per game: 2.1</p>
+    <p>(Myles Turner #33) Blocks per game: 3.4</p>
+</aside>
+</body>
+</html>
