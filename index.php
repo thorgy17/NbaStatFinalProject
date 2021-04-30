@@ -1,1 +1,1 @@
-<?php include("MainPage.html"); ?>
+<?php require("MainPage.html"); ?>
